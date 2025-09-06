@@ -49,7 +49,10 @@ Através dos gráficos animados, é possível:
 📂 Estrutura do repositório
 
 plotly_dados/
+
 ├── plots/        # gráficos gerados com Plotly e salvos em HTML
+
 ├── index.html    # versão publicada no GitHub Pages
+
 └── README.md     # este arquivo
 
