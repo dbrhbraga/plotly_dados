@@ -46,10 +46,11 @@ Através dos gráficos animados, é possível:
 
 ---
 
-## 📂 Estrutura do repositório
+📂 Estrutura do repositório
+
 plotly_dados/
-├── plots/ # gráficos gerados com plotly e salvos em html
-├── index.html # versão publicada no GitHub Pages
-└── README.md # este arquivo
+├── plots/        # gráficos gerados com Plotly e salvos em HTML
+├── index.html    # versão publicada no GitHub Pages
+└── README.md     # este arquivo
 
 
