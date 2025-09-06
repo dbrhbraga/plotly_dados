@@ -53,4 +53,3 @@ plotly_dados/
 ├── index.html    # versão publicada no GitHub Pages
 └── README.md     # este arquivo
 
-
