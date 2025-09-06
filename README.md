@@ -2,7 +2,7 @@
 https://dbrhbraga.github.io/plotly_dados
 # Gráficos Interativos com Plotly Express
 
-Este repositório contém **gráficos interativos** que exploram o **fluxo de imigração entre países da América do Sul ao longo dos anos**.  
+Este repositório complementa o repositório [analise_imigracao_canada](https://github.com/dbrhbraga/analise_imigracao_canada),  contém **gráficos interativos** que exploram o **fluxo de imigração entre países da América do Sul ao longo dos anos**.  
 Os gráficos foram criados com **Python** e **Plotly Express**, permitindo animações, filtros de países e visualização dinâmica dos dados.
 
 🌐🔗🚨 **Visualize os gráficos online:**  [plotly_dados](https://dbrhbraga.github.io/plotly_dados)
