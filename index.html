@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Gráficos Interativos com Plotly.express</title>
+    <style>
+
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin: 20px; }
+        h1 { text-align: center; position: fixed; top: 0; left: 50%; transform: translateX(-50%); background: white; width: 100%; padding: 20px 0; border-bottom: 1px solid #ffffff; }
+        h2 { margin-left: 10px; margin-top: 100px; text-align: left; }
+        h4 { margin-left: 10px; text-align: left; font-weight: normal; }
+        .grafico { margin: 40px auto 80px auto; border: 1px solid #ccc; padding: 10px; max-width: 1400px; }
+        body { padding-top: 80px; }
+        #grafico2 iframe, #grafico2 div { width: 1400px !important; height: 600px !important; }
+    </style>
+</head>
+<body>
+<h1>Gráficos Interativos com Plotly.express</h1>
+
+<h2>Fluxo de imigranção de países da América do Sul ao longo dos anos</h2>
+  <h4>Selecione ou remova os países conforme a necessidade.</h4>
+  <div class="grafico">
+   <iframe src="plots\imigrantes_america_sul.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+<h2>Gráfico animado</h2>
+  <h4>Aperte o play para iniciar a animação.</h4>
+<div class="grafico" id="grafico2">
+   <iframe src="plots\interativo_BR_simples.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+<h2>Gráfico animado com marcador</h2>
+   <h4>Aperte o play para iniciar a animação.</h4>
+<div class="grafico">
+    <iframe src="plots\grafico_interativo_plotly.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+<h2>Gráfico animado simples</h2>
+   <h4>Aperte o play para iniciar a animação.</h4>
+<div class="grafico">
+    <iframe src="plots\interativo_BR-AR_simples.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+<h2>Gráfico animado com marcador</h2>
+   <h4>Aperte o play para iniciar a animação.</h4>
+<div class="grafico">
+   <iframe src="plots\interativo_BR-AR_marker.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+</body>
+</html>
